@@ -1,24 +1,20 @@
 {
-  "name": "1hw",
+  "name": "goit-nodejs-homework",
   "version": "1.0.0",
-  "description": "",
+  "description": "learning and testing node js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
-    "start:dev": "nodemon index"
-
-
+    "dev": "nodemon index"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Oksana Vashchenko",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
-  },
   "devDependencies": {
-    "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1"
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.1"
   }
 }
